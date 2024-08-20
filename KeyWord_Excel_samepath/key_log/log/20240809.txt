@@ -1,0 +1,258 @@
+2024-08-09 10:54:11,253 20 INFO excel_read ***********开始执行./excel_data/testui2.xlsx文件用例***************
+2024-08-09 10:54:11,254 20 INFO excel_read ***********开始执行Sheet1用例***************
+2024-08-09 10:54:11,254 20 INFO excel_read **********正在执行：启动Chrome浏览器
+2024-08-09 10:54:30,970 30 WARNING run The chromedriver version (127.0.6533.88) detected in PATH at F:\python\chromedriver.exe might not be compatible with the detected chrome version (127.0.6533.89); currently, chromedriver 127.0.6533.99 is recommended for chrome 127.*, so it is advised to delete the driver in PATH and retry
+2024-08-09 10:54:34,006 20 INFO excel_read **********正在执行：访问商城网站
+2024-08-09 10:54:34,763 20 INFO excel_read **********正在执行：点击“我的”进入登录界面
+2024-08-09 10:54:35,257 20 INFO excel_read **********正在执行：输入账号
+2024-08-09 10:54:35,553 20 INFO excel_read **********正在执行：输入密码
+2024-08-09 10:54:35,675 20 INFO excel_read **********正在执行：点击登录
+2024-08-09 10:54:35,727 20 INFO excel_read **********正在执行：判断是否登录成功，检查界面中有没有用户名元素
+2024-08-09 10:54:35,972 20 INFO assert_intext user123中包含user123，符合预期
+2024-08-09 10:54:36,105 20 INFO excel_read **********正在执行：关闭浏览器
+2024-08-09 10:54:38,484 20 INFO excel_read ***********开始执行登录失败用例***************
+2024-08-09 10:54:38,484 20 INFO excel_read **********正在执行：启动Chrome浏览器
+2024-08-09 10:54:39,954 30 WARNING run The chromedriver version (127.0.6533.88) detected in PATH at F:\python\chromedriver.exe might not be compatible with the detected chrome version (127.0.6533.89); currently, chromedriver 127.0.6533.99 is recommended for chrome 127.*, so it is advised to delete the driver in PATH and retry
+2024-08-09 10:54:46,003 20 INFO excel_read **********正在执行：访问商城网站
+2024-08-09 10:54:46,612 20 INFO excel_read **********正在执行：点击“我的”进入登录界面
+2024-08-09 10:54:47,063 20 INFO excel_read **********正在执行：输入账号
+2024-08-09 10:54:47,319 20 INFO excel_read **********正在执行：输入密码
+2024-08-09 10:54:47,426 20 INFO excel_read **********正在执行：点击登录
+2024-08-09 10:54:47,474 20 INFO excel_read **********正在执行：判断是否登录成功，检查界面中有没有用户名元素
+2024-08-09 10:54:52,481 40 ERROR assert_intext 断言失败，详情：Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='user_avatar']//following-sibling::div"}
+  (Session info: chrome=127.0.6533.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7CA469632+30946]
+	(No symbol) [0x00007FF7CA41E3C9]
+	(No symbol) [0x00007FF7CA316FDA]
+	(No symbol) [0x00007FF7CA36822C]
+	(No symbol) [0x00007FF7CA36850C]
+	(No symbol) [0x00007FF7CA3ADCB7]
+	(No symbol) [0x00007FF7CA38CAAF]
+	(No symbol) [0x00007FF7CA3AB041]
+	(No symbol) [0x00007FF7CA38C813]
+	(No symbol) [0x00007FF7CA35A6E5]
+	(No symbol) [0x00007FF7CA35B021]
+	GetHandleVerifier [0x00007FF7CA59F83D+1301229]
+	GetHandleVerifier [0x00007FF7CA5ABDB7+1351783]
+	GetHandleVerifier [0x00007FF7CA5A2A03+1313971]
+	GetHandleVerifier [0x00007FF7CA49DD06+245686]
+	(No symbol) [0x00007FF7CA42758F]
+	(No symbol) [0x00007FF7CA423804]
+	(No symbol) [0x00007FF7CA423992]
+	(No symbol) [0x00007FF7CA41A3EF]
+	BaseThreadInitThunk [0x00007FFAF7D77374+20]
+	RtlUserThreadStart [0x00007FFAF7F9CC91+33]
+
+2024-08-09 10:54:52,544 20 INFO excel_read **********正在执行：关闭浏览器
+2024-08-09 10:54:54,933 20 INFO excel_read ***********开始执行登录校验失败用例***************
+2024-08-09 10:54:54,934 20 INFO excel_read **********正在执行：启动Chrome浏览器
+2024-08-09 10:54:56,387 30 WARNING run The chromedriver version (127.0.6533.88) detected in PATH at F:\python\chromedriver.exe might not be compatible with the detected chrome version (127.0.6533.89); currently, chromedriver 127.0.6533.99 is recommended for chrome 127.*, so it is advised to delete the driver in PATH and retry
+2024-08-09 10:55:02,153 20 INFO excel_read **********正在执行：访问商城网站
+2024-08-09 10:55:02,779 20 INFO excel_read **********正在执行：点击“我的”进入登录界面
+2024-08-09 10:55:03,161 20 INFO excel_read **********正在执行：输入账号
+2024-08-09 10:55:03,419 20 INFO excel_read **********正在执行：输入密码
+2024-08-09 10:55:03,529 20 INFO excel_read **********正在执行：点击登录
+2024-08-09 10:55:03,605 20 INFO excel_read **********正在执行：判断是否登录成功，检查界面中有没有用户名元素
+2024-08-09 10:55:03,823 40 ERROR assert_intext 断言失败，详情：user123中没有包含user122，不符合预期
+2024-08-09 10:55:03,882 20 INFO excel_read **********正在执行：关闭浏览器
+2024-08-09 10:55:06,178 20 INFO excel_read ***********开始执行登录校验失败4用例***************
+2024-08-09 10:55:06,178 20 INFO excel_read **********正在执行：启动Chrome浏览器
+2024-08-09 10:55:07,675 30 WARNING run The chromedriver version (127.0.6533.88) detected in PATH at F:\python\chromedriver.exe might not be compatible with the detected chrome version (127.0.6533.89); currently, chromedriver 127.0.6533.99 is recommended for chrome 127.*, so it is advised to delete the driver in PATH and retry
+2024-08-09 10:55:13,531 20 INFO excel_read **********正在执行：访问商城网站
+2024-08-09 10:55:14,117 20 INFO excel_read **********正在执行：点击“我的”进入登录界面
+2024-08-09 10:55:14,501 20 INFO excel_read **********正在执行：输入账号
+2024-08-09 10:55:14,749 20 INFO excel_read **********正在执行：输入密码
+2024-08-09 10:55:14,832 20 INFO excel_read **********正在执行：点击登录
+2024-08-09 10:55:14,884 20 INFO excel_read **********正在执行：判断是否登录成功，检查界面中有没有用户名元素
+2024-08-09 10:55:15,136 40 ERROR assert_intext 断言失败，详情：user123中没有包含user124，不符合预期
+2024-08-09 10:55:15,187 20 INFO excel_read **********正在执行：关闭浏览器
+2024-08-09 10:55:17,489 20 INFO excel_read *********./excel_data/testui2.xlsx文件执行完毕：成功1条，失败3条  失败用例：['登录失败', '登录校验失败', '登录校验失败4']***********
+2024-08-09 10:55:21,579 20 INFO excel_read ***********开始执行./excel_data/testui2.xlsx文件用例***************
+2024-08-09 10:55:21,579 20 INFO excel_read ***********登录失败失败用例重试***************
+2024-08-09 10:55:21,579 20 INFO excel_read **********正在执行：启动Chrome浏览器
+2024-08-09 10:55:23,160 30 WARNING run The chromedriver version (127.0.6533.88) detected in PATH at F:\python\chromedriver.exe might not be compatible with the detected chrome version (127.0.6533.89); currently, chromedriver 127.0.6533.99 is recommended for chrome 127.*, so it is advised to delete the driver in PATH and retry
+2024-08-09 10:55:24,966 20 INFO excel_read **********正在执行：访问商城网站
+2024-08-09 10:55:25,606 20 INFO excel_read **********正在执行：点击“我的”进入登录界面
+2024-08-09 10:55:25,902 20 INFO excel_read **********正在执行：输入账号
+2024-08-09 10:55:26,198 20 INFO excel_read **********正在执行：输入密码
+2024-08-09 10:55:26,290 20 INFO excel_read **********正在执行：点击登录
+2024-08-09 10:55:26,353 20 INFO excel_read **********正在执行：判断是否登录成功，检查界面中有没有用户名元素
+2024-08-09 10:55:31,374 40 ERROR assert_intext 断言失败，详情：Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='user_avatar']//following-sibling::div"}
+  (Session info: chrome=127.0.6533.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7CA469632+30946]
+	(No symbol) [0x00007FF7CA41E3C9]
+	(No symbol) [0x00007FF7CA316FDA]
+	(No symbol) [0x00007FF7CA36822C]
+	(No symbol) [0x00007FF7CA36850C]
+	(No symbol) [0x00007FF7CA3ADCB7]
+	(No symbol) [0x00007FF7CA38CAAF]
+	(No symbol) [0x00007FF7CA3AB041]
+	(No symbol) [0x00007FF7CA38C813]
+	(No symbol) [0x00007FF7CA35A6E5]
+	(No symbol) [0x00007FF7CA35B021]
+	GetHandleVerifier [0x00007FF7CA59F83D+1301229]
+	GetHandleVerifier [0x00007FF7CA5ABDB7+1351783]
+	GetHandleVerifier [0x00007FF7CA5A2A03+1313971]
+	GetHandleVerifier [0x00007FF7CA49DD06+245686]
+	(No symbol) [0x00007FF7CA42758F]
+	(No symbol) [0x00007FF7CA423804]
+	(No symbol) [0x00007FF7CA423992]
+	(No symbol) [0x00007FF7CA41A3EF]
+	BaseThreadInitThunk [0x00007FFAF7D77374+20]
+	RtlUserThreadStart [0x00007FFAF7F9CC91+33]
+
+2024-08-09 10:55:31,417 20 INFO excel_read **********正在执行：关闭浏览器
+2024-08-09 10:55:33,799 20 INFO excel_read ***********登录校验失败失败用例重试***************
+2024-08-09 10:55:33,799 20 INFO excel_read **********正在执行：启动Chrome浏览器
+2024-08-09 10:55:35,218 30 WARNING run The chromedriver version (127.0.6533.88) detected in PATH at F:\python\chromedriver.exe might not be compatible with the detected chrome version (127.0.6533.89); currently, chromedriver 127.0.6533.99 is recommended for chrome 127.*, so it is advised to delete the driver in PATH and retry
+2024-08-09 10:55:40,957 20 INFO excel_read **********正在执行：访问商城网站
+2024-08-09 10:55:41,631 20 INFO excel_read **********正在执行：点击“我的”进入登录界面
+2024-08-09 10:55:41,890 20 INFO excel_read **********正在执行：输入账号
+2024-08-09 10:55:42,156 20 INFO excel_read **********正在执行：输入密码
+2024-08-09 10:55:42,286 20 INFO excel_read **********正在执行：点击登录
+2024-08-09 10:55:42,349 20 INFO excel_read **********正在执行：判断是否登录成功，检查界面中有没有用户名元素
+2024-08-09 10:55:42,607 40 ERROR assert_intext 断言失败，详情：user123中没有包含user122，不符合预期
+2024-08-09 10:55:42,638 20 INFO excel_read **********正在执行：关闭浏览器
+2024-08-09 10:55:44,972 20 INFO excel_read ***********登录校验失败4失败用例重试***************
+2024-08-09 10:55:44,972 20 INFO excel_read **********正在执行：启动Chrome浏览器
+2024-08-09 10:55:46,425 30 WARNING run The chromedriver version (127.0.6533.88) detected in PATH at F:\python\chromedriver.exe might not be compatible with the detected chrome version (127.0.6533.89); currently, chromedriver 127.0.6533.99 is recommended for chrome 127.*, so it is advised to delete the driver in PATH and retry
+2024-08-09 10:55:52,237 20 INFO excel_read **********正在执行：访问商城网站
+2024-08-09 10:55:52,475 20 INFO excel_read **********正在执行：点击“我的”进入登录界面
+2024-08-09 10:55:53,322 20 INFO excel_read **********正在执行：输入账号
+2024-08-09 10:55:53,593 20 INFO excel_read **********正在执行：输入密码
+2024-08-09 10:55:53,701 20 INFO excel_read **********正在执行：点击登录
+2024-08-09 10:55:53,765 20 INFO excel_read **********正在执行：判断是否登录成功，检查界面中有没有用户名元素
+2024-08-09 10:55:54,017 40 ERROR assert_intext 断言失败，详情：user123中没有包含user124，不符合预期
+2024-08-09 10:55:54,048 20 INFO excel_read **********正在执行：关闭浏览器
+2024-08-09 10:55:57,362 20 INFO excel_read ./excel_data/testui2.xlsx文件失败用例重试：成功0条，失败3条  失败用例：['登录失败', '登录校验失败', '登录校验失败4']***********
+2024-08-09 10:56:01,486 20 INFO excel_read ***********开始执行./excel_data/testui3.xlsx文件用例***************
+2024-08-09 10:56:01,487 20 INFO excel_read ***********开始执行Sheet1用例***************
+2024-08-09 10:56:01,487 20 INFO excel_read **********正在执行：启动Chrome浏览器
+2024-08-09 10:56:02,969 30 WARNING run The chromedriver version (127.0.6533.88) detected in PATH at F:\python\chromedriver.exe might not be compatible with the detected chrome version (127.0.6533.89); currently, chromedriver 127.0.6533.99 is recommended for chrome 127.*, so it is advised to delete the driver in PATH and retry
+2024-08-09 10:56:04,637 20 INFO excel_read **********正在执行：访问商城网站
+2024-08-09 10:56:04,879 20 INFO excel_read **********正在执行：点击“我的”进入登录界面
+2024-08-09 10:56:05,555 20 INFO excel_read **********正在执行：输入账号
+2024-08-09 10:56:05,815 20 INFO excel_read **********正在执行：输入密码
+2024-08-09 10:56:05,925 20 INFO excel_read **********正在执行：点击登录
+2024-08-09 10:56:05,978 20 INFO excel_read **********正在执行：判断是否登录成功，检查界面中有没有用户名元素
+2024-08-09 10:56:06,225 20 INFO assert_intext user123中包含user123，符合预期
+2024-08-09 10:56:06,283 20 INFO excel_read **********正在执行：关闭浏览器
+2024-08-09 10:56:08,528 20 INFO excel_read ***********开始执行登录失败用例***************
+2024-08-09 10:56:08,529 20 INFO excel_read **********正在执行：启动Chrome浏览器
+2024-08-09 10:56:09,992 30 WARNING run The chromedriver version (127.0.6533.88) detected in PATH at F:\python\chromedriver.exe might not be compatible with the detected chrome version (127.0.6533.89); currently, chromedriver 127.0.6533.99 is recommended for chrome 127.*, so it is advised to delete the driver in PATH and retry
+2024-08-09 10:56:15,849 20 INFO excel_read **********正在执行：访问商城网站
+2024-08-09 10:56:16,440 20 INFO excel_read **********正在执行：点击“我的”进入登录界面
+2024-08-09 10:56:16,999 20 INFO excel_read **********正在执行：输入账号
+2024-08-09 10:56:17,226 20 INFO excel_read **********正在执行：输入密码
+2024-08-09 10:56:17,313 20 INFO excel_read **********正在执行：点击登录
+2024-08-09 10:56:17,360 20 INFO excel_read **********正在执行：判断是否登录成功，检查界面中有没有用户名元素
+2024-08-09 10:56:22,372 40 ERROR assert_intext 断言失败，详情：Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='user_avatar']//following-sibling::div"}
+  (Session info: chrome=127.0.6533.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7CA469632+30946]
+	(No symbol) [0x00007FF7CA41E3C9]
+	(No symbol) [0x00007FF7CA316FDA]
+	(No symbol) [0x00007FF7CA36822C]
+	(No symbol) [0x00007FF7CA36850C]
+	(No symbol) [0x00007FF7CA3ADCB7]
+	(No symbol) [0x00007FF7CA38CAAF]
+	(No symbol) [0x00007FF7CA3AB041]
+	(No symbol) [0x00007FF7CA38C813]
+	(No symbol) [0x00007FF7CA35A6E5]
+	(No symbol) [0x00007FF7CA35B021]
+	GetHandleVerifier [0x00007FF7CA59F83D+1301229]
+	GetHandleVerifier [0x00007FF7CA5ABDB7+1351783]
+	GetHandleVerifier [0x00007FF7CA5A2A03+1313971]
+	GetHandleVerifier [0x00007FF7CA49DD06+245686]
+	(No symbol) [0x00007FF7CA42758F]
+	(No symbol) [0x00007FF7CA423804]
+	(No symbol) [0x00007FF7CA423992]
+	(No symbol) [0x00007FF7CA41A3EF]
+	BaseThreadInitThunk [0x00007FFAF7D77374+20]
+	RtlUserThreadStart [0x00007FFAF7F9CC91+33]
+
+2024-08-09 10:56:22,426 20 INFO excel_read **********正在执行：关闭浏览器
+2024-08-09 10:56:24,745 20 INFO excel_read ***********开始执行登录校验失败用例***************
+2024-08-09 10:56:24,745 20 INFO excel_read **********正在执行：启动Chrome浏览器
+2024-08-09 10:56:26,205 30 WARNING run The chromedriver version (127.0.6533.88) detected in PATH at F:\python\chromedriver.exe might not be compatible with the detected chrome version (127.0.6533.89); currently, chromedriver 127.0.6533.99 is recommended for chrome 127.*, so it is advised to delete the driver in PATH and retry
+2024-08-09 10:56:32,043 20 INFO excel_read **********正在执行：访问商城网站
+2024-08-09 10:56:32,616 20 INFO excel_read **********正在执行：点击“我的”进入登录界面
+2024-08-09 10:56:32,933 20 INFO excel_read **********正在执行：输入账号
+2024-08-09 10:56:33,306 20 INFO excel_read **********正在执行：输入密码
+2024-08-09 10:56:33,401 20 INFO excel_read **********正在执行：点击登录
+2024-08-09 10:56:33,453 20 INFO excel_read **********正在执行：判断是否登录成功，检查界面中有没有用户名元素
+2024-08-09 10:56:33,692 40 ERROR assert_intext 断言失败，详情：user123中没有包含user122，不符合预期
+2024-08-09 10:56:33,745 20 INFO excel_read **********正在执行：关闭浏览器
+2024-08-09 10:56:36,034 20 INFO excel_read ***********开始执行登录校验失败4用例***************
+2024-08-09 10:56:36,035 20 INFO excel_read **********正在执行：启动Chrome浏览器
+2024-08-09 10:56:37,495 30 WARNING run The chromedriver version (127.0.6533.88) detected in PATH at F:\python\chromedriver.exe might not be compatible with the detected chrome version (127.0.6533.89); currently, chromedriver 127.0.6533.99 is recommended for chrome 127.*, so it is advised to delete the driver in PATH and retry
+2024-08-09 10:56:43,251 20 INFO excel_read **********正在执行：访问商城网站
+2024-08-09 10:56:43,854 20 INFO excel_read **********正在执行：点击“我的”进入登录界面
+2024-08-09 10:56:44,129 20 INFO excel_read **********正在执行：输入账号
+2024-08-09 10:56:44,516 20 INFO excel_read **********正在执行：输入密码
+2024-08-09 10:56:44,636 20 INFO excel_read **********正在执行：点击登录
+2024-08-09 10:56:44,697 20 INFO excel_read **********正在执行：判断是否登录成功，检查界面中有没有用户名元素
+2024-08-09 10:56:44,929 40 ERROR assert_intext 断言失败，详情：user123中没有包含user124，不符合预期
+2024-08-09 10:56:44,986 20 INFO excel_read **********正在执行：关闭浏览器
+2024-08-09 10:56:47,272 20 INFO excel_read *********./excel_data/testui3.xlsx文件执行完毕：成功1条，失败3条  失败用例：['登录失败', '登录校验失败', '登录校验失败4']***********
+2024-08-09 10:56:51,384 20 INFO excel_read ***********开始执行./excel_data/testui3.xlsx文件用例***************
+2024-08-09 10:56:51,384 20 INFO excel_read ***********登录失败失败用例重试***************
+2024-08-09 10:56:51,384 20 INFO excel_read **********正在执行：启动Chrome浏览器
+2024-08-09 10:56:52,817 30 WARNING run The chromedriver version (127.0.6533.88) detected in PATH at F:\python\chromedriver.exe might not be compatible with the detected chrome version (127.0.6533.89); currently, chromedriver 127.0.6533.99 is recommended for chrome 127.*, so it is advised to delete the driver in PATH and retry
+2024-08-09 10:56:54,764 20 INFO excel_read **********正在执行：访问商城网站
+2024-08-09 10:56:55,463 20 INFO excel_read **********正在执行：点击“我的”进入登录界面
+2024-08-09 10:56:55,913 20 INFO excel_read **********正在执行：输入账号
+2024-08-09 10:56:56,198 20 INFO excel_read **********正在执行：输入密码
+2024-08-09 10:56:56,311 20 INFO excel_read **********正在执行：点击登录
+2024-08-09 10:56:56,371 20 INFO excel_read **********正在执行：判断是否登录成功，检查界面中有没有用户名元素
+2024-08-09 10:57:01,387 40 ERROR assert_intext 断言失败，详情：Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='user_avatar']//following-sibling::div"}
+  (Session info: chrome=127.0.6533.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7CA469632+30946]
+	(No symbol) [0x00007FF7CA41E3C9]
+	(No symbol) [0x00007FF7CA316FDA]
+	(No symbol) [0x00007FF7CA36822C]
+	(No symbol) [0x00007FF7CA36850C]
+	(No symbol) [0x00007FF7CA3ADCB7]
+	(No symbol) [0x00007FF7CA38CAAF]
+	(No symbol) [0x00007FF7CA3AB041]
+	(No symbol) [0x00007FF7CA38C813]
+	(No symbol) [0x00007FF7CA35A6E5]
+	(No symbol) [0x00007FF7CA35B021]
+	GetHandleVerifier [0x00007FF7CA59F83D+1301229]
+	GetHandleVerifier [0x00007FF7CA5ABDB7+1351783]
+	GetHandleVerifier [0x00007FF7CA5A2A03+1313971]
+	GetHandleVerifier [0x00007FF7CA49DD06+245686]
+	(No symbol) [0x00007FF7CA42758F]
+	(No symbol) [0x00007FF7CA423804]
+	(No symbol) [0x00007FF7CA423992]
+	(No symbol) [0x00007FF7CA41A3EF]
+	BaseThreadInitThunk [0x00007FFAF7D77374+20]
+	RtlUserThreadStart [0x00007FFAF7F9CC91+33]
+
+2024-08-09 10:57:01,416 20 INFO excel_read **********正在执行：关闭浏览器
+2024-08-09 10:57:03,782 20 INFO excel_read ***********登录校验失败失败用例重试***************
+2024-08-09 10:57:03,782 20 INFO excel_read **********正在执行：启动Chrome浏览器
+2024-08-09 10:57:05,254 30 WARNING run The chromedriver version (127.0.6533.88) detected in PATH at F:\python\chromedriver.exe might not be compatible with the detected chrome version (127.0.6533.89); currently, chromedriver 127.0.6533.99 is recommended for chrome 127.*, so it is advised to delete the driver in PATH and retry
+2024-08-09 10:57:11,053 20 INFO excel_read **********正在执行：访问商城网站
+2024-08-09 10:57:11,679 20 INFO excel_read **********正在执行：点击“我的”进入登录界面
+2024-08-09 10:57:11,948 20 INFO excel_read **********正在执行：输入账号
+2024-08-09 10:57:12,232 20 INFO excel_read **********正在执行：输入密码
+2024-08-09 10:57:12,322 20 INFO excel_read **********正在执行：点击登录
+2024-08-09 10:57:12,381 20 INFO excel_read **********正在执行：判断是否登录成功，检查界面中有没有用户名元素
+2024-08-09 10:57:12,632 40 ERROR assert_intext 断言失败，详情：user123中没有包含user122，不符合预期
+2024-08-09 10:57:12,665 20 INFO excel_read **********正在执行：关闭浏览器
+2024-08-09 10:57:16,041 20 INFO excel_read ***********登录校验失败4失败用例重试***************
+2024-08-09 10:57:16,041 20 INFO excel_read **********正在执行：启动Chrome浏览器
+2024-08-09 10:57:17,508 30 WARNING run The chromedriver version (127.0.6533.88) detected in PATH at F:\python\chromedriver.exe might not be compatible with the detected chrome version (127.0.6533.89); currently, chromedriver 127.0.6533.99 is recommended for chrome 127.*, so it is advised to delete the driver in PATH and retry
+2024-08-09 10:57:23,272 20 INFO excel_read **********正在执行：访问商城网站
+2024-08-09 10:57:23,888 20 INFO excel_read **********正在执行：点击“我的”进入登录界面
+2024-08-09 10:57:24,252 20 INFO excel_read **********正在执行：输入账号
+2024-08-09 10:57:24,417 20 INFO excel_read **********正在执行：输入密码
+2024-08-09 10:57:24,519 20 INFO excel_read **********正在执行：点击登录
+2024-08-09 10:57:24,587 20 INFO excel_read **********正在执行：判断是否登录成功，检查界面中有没有用户名元素
+2024-08-09 10:57:24,807 40 ERROR assert_intext 断言失败，详情：user123中没有包含user124，不符合预期
+2024-08-09 10:57:24,837 20 INFO excel_read **********正在执行：关闭浏览器
+2024-08-09 10:57:27,202 20 INFO excel_read ./excel_data/testui3.xlsx文件失败用例重试：成功0条，失败3条  失败用例：['登录失败', '登录校验失败', '登录校验失败4']***********
