@@ -1,0 +1,86 @@
+{
+  "uid" : "64a56d8e0c1e7551",
+  "name" : "创建供应商",
+  "fullName" : "pytest_case.test_pocess.TestCase#test_login",
+  "historyId" : "ab429638dd7c86047607e3500195c61b",
+  "time" : {
+    "start" : 1724142797491,
+    "stop" : 1724142797597,
+    "duration" : 106
+  },
+  "description" : "流程用例",
+  "descriptionHtml" : "<p>流程用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "创建供应商"
+  }, {
+    "name" : "story",
+    "value" : "正常创建"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_pocess"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-8U46B15N"
+  }, {
+    "name" : "thread",
+    "value" : "17568-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_case.test_pocess"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "userdata",
+    "value" : "[4, 'https://litemall.hogwarts.ceshiren.com/admin/brand/create', '{\"name\":\"测试二商\",\"desc\":\"添加商品\",\"floorPrice\":\"32\",\"picUrl\":\"https://litemall.hogwarts.ceshiren.com/wx/storage/fetch/ue9vehya1y6h8a17brpk.jpg\"}', \"{'object':'$..data','index':0,'name':'TestCase.params1'}\", None, 'post', 'json', '{\"errno\":0,\"errmsg\":\"成功\",\"name\":\"测试二商\"}', '通过', '创建供应商', '正常创建', '创建供应商', '流程用例', 'normal']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ea72a6a09b47c5f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1724141061655,
+        "stop" : 1724141061746,
+        "duration" : 91
+      }
+    }, {
+      "uid" : "932e949200f501e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723637978676,
+        "stop" : 1723637978776,
+        "duration" : 100
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "64a56d8e0c1e7551.json",
+  "parameterValues" : [ "[4, 'https://litemall.hogwarts.ceshiren.com/admin/brand/create', '{\"name\":\"测试二商\",\"desc\":\"添加商品\",\"floorPrice\":\"32\",\"picUrl\":\"https://litemall.hogwarts.ceshiren.com/wx/storage/fetch/ue9vehya1y6h8a17brpk.jpg\"}', \"{'object':'$..data','index':0,'name':'TestCase.params1'}\", None, 'post', 'json', '{\"errno\":0,\"errmsg\":\"成功\",\"name\":\"测试二商\"}', '通过', '创建供应商', '正常创建', '创建供应商', '流程用例', 'normal']" ]
+}

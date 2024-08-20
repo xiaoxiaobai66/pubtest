@@ -1,0 +1,68 @@
+{
+  "uid" : "e8645faa4008bf7f",
+  "name" : "登录接口测试",
+  "fullName" : "pytest_case.test_pocess.TestCase#test_login",
+  "historyId" : "b95016f51986d17d7429108c7a447212",
+  "time" : {
+    "start" : 1723637977772,
+    "stop" : 1723637978040,
+    "duration" : 268
+  },
+  "description" : "流程用例",
+  "descriptionHtml" : "<p>流程用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录接口测试"
+  }, {
+    "name" : "story",
+    "value" : "正常登录"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_pocess"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-8U46B15N"
+  }, {
+    "name" : "thread",
+    "value" : "154548-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_case.test_pocess"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "userdata",
+    "value" : "[1, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'hogwarts','password':'test12345'}\", None, None, 'post', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '登录接口测试', '正常登录', '登录接口测试', '流程用例', 'normal']"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8645faa4008bf7f.json",
+  "parameterValues" : [ "[1, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'hogwarts','password':'test12345'}\", None, None, 'post', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '登录接口测试', '正常登录', '登录接口测试', '流程用例', 'normal']" ]
+}

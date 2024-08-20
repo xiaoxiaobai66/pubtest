@@ -1,0 +1,68 @@
+{
+  "uid" : "7c17efdde7de6624",
+  "name" : "删除供应商",
+  "fullName" : "pytest_case.test_pocess.TestCase#test_login",
+  "historyId" : "7169169cc677fcd0feea89ac017cd4d0",
+  "time" : {
+    "start" : 1723637978886,
+    "stop" : 1723637978992,
+    "duration" : 106
+  },
+  "description" : "流程用例",
+  "descriptionHtml" : "<p>流程用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "删除供应商"
+  }, {
+    "name" : "story",
+    "value" : "正常删除"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_pocess"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-8U46B15N"
+  }, {
+    "name" : "thread",
+    "value" : "154548-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_case.test_pocess"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "userdata",
+    "value" : "[6, 'https://litemall.hogwarts.ceshiren.com/admin/brand/delete', None, None, \"{'name':'TestCase.params2'}\", 'post', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '删除供应商', '正常删除', '删除供应商', '流程用例', 'normal']"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c17efdde7de6624.json",
+  "parameterValues" : [ "[6, 'https://litemall.hogwarts.ceshiren.com/admin/brand/delete', None, None, \"{'name':'TestCase.params2'}\", 'post', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '删除供应商', '正常删除', '删除供应商', '流程用例', 'normal']" ]
+}

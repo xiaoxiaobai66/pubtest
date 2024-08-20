@@ -1,0 +1,86 @@
+{
+  "uid" : "415adc72a71fcb9a",
+  "name" : "查询供应商列表",
+  "fullName" : "pytest_case.test_pocess.TestCase#test_login",
+  "historyId" : "ad76fd4e2c0ad258ce6cf79f60e4f369",
+  "time" : {
+    "start" : 1724142797389,
+    "stop" : 1724142797486,
+    "duration" : 97
+  },
+  "description" : "流程用例",
+  "descriptionHtml" : "<p>流程用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "查询供应商列表"
+  }, {
+    "name" : "story",
+    "value" : "正常查询"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_pocess"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-8U46B15N"
+  }, {
+    "name" : "thread",
+    "value" : "17568-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_case.test_pocess"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "userdata",
+    "value" : "[3, 'https://litemall.hogwarts.ceshiren.com/admin/brand/list', \"{'page':1,'limit':20,'sort':'add_time','order':'desc'}\", None, None, 'get', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '查询供应商列表', '正常查询', '查询供应商列表', '流程用例', 'normal']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e272d0b2ce8070c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1724141061543,
+        "stop" : 1724141061650,
+        "duration" : 107
+      }
+    }, {
+      "uid" : "5469af309cfe368a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723637978552,
+        "stop" : 1723637978672,
+        "duration" : 120
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "415adc72a71fcb9a.json",
+  "parameterValues" : [ "[3, 'https://litemall.hogwarts.ceshiren.com/admin/brand/list', \"{'page':1,'limit':20,'sort':'add_time','order':'desc'}\", None, None, 'get', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '查询供应商列表', '正常查询', '查询供应商列表', '流程用例', 'normal']" ]
+}

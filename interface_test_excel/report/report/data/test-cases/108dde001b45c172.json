@@ -1,0 +1,78 @@
+{
+  "uid" : "108dde001b45c172",
+  "name" : "登录接口测试",
+  "fullName" : "pytest_case.test_case_login.TestCase#test_alone",
+  "historyId" : "d761582c7e60cbe31df2911c3ac26e00",
+  "time" : {
+    "start" : 1724142796641,
+    "stop" : 1724142796729,
+    "duration" : 88
+  },
+  "description" : "密码为空",
+  "descriptionHtml" : "<p>密码为空</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录接口测试"
+  }, {
+    "name" : "story",
+    "value" : "异常登录"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-8U46B15N"
+  }, {
+    "name" : "thread",
+    "value" : "17568-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_case.test_case_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "userdata",
+    "value" : "[5, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'hogwarts','password':''}\", 'post', 'json', \"{'errno': 401, 'errmsg': '参数不对'}\", '通过', '登录接口测试', '异常登录', '密码为空', '密码为空', 'blocker']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "f3102d64d1948671",
+      "status" : "passed",
+      "time" : {
+        "start" : 1724141060775,
+        "stop" : 1724141060860,
+        "duration" : 85
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "108dde001b45c172.json",
+  "parameterValues" : [ "[5, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'hogwarts','password':''}\", 'post', 'json', \"{'errno': 401, 'errmsg': '参数不对'}\", '通过', '登录接口测试', '异常登录', '密码为空', '密码为空', 'blocker']" ]
+}

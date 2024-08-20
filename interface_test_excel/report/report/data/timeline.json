@@ -1,0 +1,519 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-8U46B15N",
+    "children" : [ {
+      "name" : "3656-MainThread",
+      "children" : [ {
+        "name" : "登录接口测试",
+        "uid" : "bc3500cc534a3b86",
+        "parentUid" : "62376caf6e8c3e29f3e8b20e1dd672c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724141060503,
+          "stop" : 1724141060595,
+          "duration" : 92
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[3, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'hogwarts','password':'test12347'}\", 'post', 'json', '{\"errmsg\":\"用户帐号或密码不正确\",\"errno\":605}', '通过', '登录接口测试', '异常登录', '密码错误，登录失败', '用户名正确，密码错误', 'normal']" ]
+      }, {
+        "name" : "登录接口测试",
+        "uid" : "fbd5f72ce6b15c97",
+        "parentUid" : "62376caf6e8c3e29f3e8b20e1dd672c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724141060398,
+          "stop" : 1724141060499,
+          "duration" : 101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[2, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'hogwart','password':'test12345'}\", 'post', 'json', '{\"errmsg\":\"用户帐号或密码不正确\",\"errno\":605}', '通过', '登录接口测试', '异常登录', '用户名错误，登录失败', '用户名错误，密码正确', 'normal']" ]
+      }, {
+        "name" : "登录接口测试",
+        "uid" : "ad71cfb9272bf075",
+        "parentUid" : "62376caf6e8c3e29f3e8b20e1dd672c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724141060867,
+          "stop" : 1724141061107,
+          "duration" : 240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'hogwarts','password':'test12345'}\", None, None, 'post', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '登录接口测试', '正常登录', '登录接口测试', '流程用例', 'normal']" ]
+      }, {
+        "name" : "登录接口测试",
+        "uid" : "5d7ffbc13b1e206c",
+        "parentUid" : "62376caf6e8c3e29f3e8b20e1dd672c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724141059837,
+          "stop" : 1724141060372,
+          "duration" : 535
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'hogwarts','password':'test12345'}\", 'post', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '登录接口测试', '正常登录', '正常登录，登录成功', '用户名密码正确', 'normal']" ]
+      }, {
+        "name" : "登录接口测试",
+        "uid" : "f3102d64d1948671",
+        "parentUid" : "62376caf6e8c3e29f3e8b20e1dd672c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724141060775,
+          "stop" : 1724141060860,
+          "duration" : 85
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[5, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'hogwarts','password':''}\", 'post', 'json', \"{'errno': 401, 'errmsg': '参数不对'}\", '通过', '登录接口测试', '异常登录', '密码为空', '密码为空', 'blocker']" ]
+      }, {
+        "name" : "删除供应商",
+        "uid" : "b553df915e370f60",
+        "parentUid" : "62376caf6e8c3e29f3e8b20e1dd672c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724141061862,
+          "stop" : 1724141061950,
+          "duration" : 88
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[6, 'https://litemall.hogwarts.ceshiren.com/admin/brand/delete', None, None, \"{'name':'TestCase.params2'}\", 'post', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '删除供应商', '正常删除', '删除供应商', '流程用例', 'normal']" ]
+      }, {
+        "name" : "更新供应商",
+        "uid" : "d5c08b1e92bb49ad",
+        "parentUid" : "62376caf6e8c3e29f3e8b20e1dd672c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724141061767,
+          "stop" : 1724141061858,
+          "duration" : 91
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[5, 'https://litemall.hogwarts.ceshiren.com/admin/brand/update', None, \"{'object':'$..data','index':0,'name':'TestCase.params2'}\", \"{'name':'TestCase.params1'}\", 'post', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '更新供应商', '正常修改', '更新供应商', '流程用例', 'normal']" ]
+      }, {
+        "name" : "查询供应商列表",
+        "uid" : "e272d0b2ce8070c5",
+        "parentUid" : "62376caf6e8c3e29f3e8b20e1dd672c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724141061543,
+          "stop" : 1724141061650,
+          "duration" : 107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[3, 'https://litemall.hogwarts.ceshiren.com/admin/brand/list', \"{'page':1,'limit':20,'sort':'add_time','order':'desc'}\", None, None, 'get', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '查询供应商列表', '正常查询', '查询供应商列表', '流程用例', 'normal']" ]
+      }, {
+        "name" : "创建供应商",
+        "uid" : "ea72a6a09b47c5f8",
+        "parentUid" : "62376caf6e8c3e29f3e8b20e1dd672c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724141061655,
+          "stop" : 1724141061746,
+          "duration" : 91
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[4, 'https://litemall.hogwarts.ceshiren.com/admin/brand/create', '{\"name\":\"测试二商\",\"desc\":\"添加商品\",\"floorPrice\":\"32\",\"picUrl\":\"https://litemall.hogwarts.ceshiren.com/wx/storage/fetch/ue9vehya1y6h8a17brpk.jpg\"}', \"{'object':'$..data','index':0,'name':'TestCase.params1'}\", None, 'post', 'json', '{\"errno\":0,\"errmsg\":\"成功\",\"name\":\"测试二商\"}', '通过', '创建供应商', '正常创建', '创建供应商', '流程用例', 'normal']" ]
+      }, {
+        "name" : "登录接口测试",
+        "uid" : "f660ab614859cc15",
+        "parentUid" : "62376caf6e8c3e29f3e8b20e1dd672c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724141060645,
+          "stop" : 1724141060754,
+          "duration" : 109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[4, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'','password':'test12348'}\", 'post', 'json', \"{'errno': 402, 'errmsg': '参数不对'}\", '失败', '登录接口测试', '异常登录', '用户名为空', '用户名为空', 'blocker']" ]
+      }, {
+        "name" : "查询行政单位列表",
+        "uid" : "ce3ca5e3bf5c0a8e",
+        "parentUid" : "62376caf6e8c3e29f3e8b20e1dd672c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724141061121,
+          "stop" : 1724141061517,
+          "duration" : 396
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[2, 'https://litemall.hogwarts.ceshiren.com/admin/region/list', None, None, None, 'get', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '查询行政单位列表', '正常查询', '查询行政单位列表', '流程用例', 'normal']" ]
+      } ],
+      "uid" : "62376caf6e8c3e29f3e8b20e1dd672c1"
+    }, {
+      "name" : "153884-MainThread",
+      "children" : [ {
+        "name" : "登录接口测试",
+        "uid" : "7f9b3a016fb1e534",
+        "parentUid" : "dad8235cb7bb52823f0ebe10f101c64e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723614823020,
+          "stop" : 1723614823129,
+          "duration" : 109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[4, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'','password':'test12348'}\", 'post', 'json', \"{'errno': 402, 'errmsg': '参数不对'}\", '失败', '登录接口测试', '异常登录', '用户名为空', '用户名为空', 'blocker']" ]
+      }, {
+        "name" : "登录接口测试",
+        "uid" : "8e1a935a5247c17",
+        "parentUid" : "dad8235cb7bb52823f0ebe10f101c64e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723614822436,
+          "stop" : 1723614822723,
+          "duration" : 287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'hogwarts','password':'test12345'}\", 'post', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '登录接口测试', '正常登录', '正常登录，登录成功', '用户名密码正确', 'normal']" ]
+      }, {
+        "name" : "登录接口测试",
+        "uid" : "77a9026608cb90c5",
+        "parentUid" : "dad8235cb7bb52823f0ebe10f101c64e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723614823134,
+          "stop" : 1723614823546,
+          "duration" : 412
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[5, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'hogwarts','password':''}\", 'post', 'json', \"{'errno': 401, 'errmsg': '参数不对'}\", '通过', '登录接口测试', '异常登录', '密码为空', '密码为空', 'blocker']" ]
+      }, {
+        "name" : "登录接口测试",
+        "uid" : "fd0e019ab8f102bc",
+        "parentUid" : "dad8235cb7bb52823f0ebe10f101c64e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723614822732,
+          "stop" : 1723614822874,
+          "duration" : 142
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[2, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'hogwart','password':'test12345'}\", 'post', 'json', '{\"errmsg\":\"用户帐号或密码不正确\",\"errno\":605}', '通过', '登录接口测试', '异常登录', '用户名错误，登录失败', '用户名错误，密码正确', 'normal']" ]
+      }, {
+        "name" : "登录接口测试",
+        "uid" : "b640c313cd55a2bd",
+        "parentUid" : "dad8235cb7bb52823f0ebe10f101c64e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723614822885,
+          "stop" : 1723614823016,
+          "duration" : 131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[3, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'hogwarts','password':'test12347'}\", 'post', 'json', '{\"errmsg\":\"用户帐号或密码不正确\",\"errno\":605}', '通过', '登录接口测试', '异常登录', '密码错误，登录失败', '用户名正确，密码错误', 'normal']" ]
+      } ],
+      "uid" : "dad8235cb7bb52823f0ebe10f101c64e"
+    }, {
+      "name" : "154548-MainThread",
+      "children" : [ {
+        "name" : "登录接口测试",
+        "uid" : "1a3cdbfa4832595f",
+        "parentUid" : "3e5b3690f9efc1287878b9796248f86d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723637976844,
+          "stop" : 1723637977334,
+          "duration" : 490
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'hogwarts','password':'test12345'}\", 'post', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '登录接口测试', '正常登录', '正常登录，登录成功', '用户名密码正确', 'normal']" ]
+      }, {
+        "name" : "删除供应商",
+        "uid" : "7c17efdde7de6624",
+        "parentUid" : "3e5b3690f9efc1287878b9796248f86d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723637978886,
+          "stop" : 1723637978992,
+          "duration" : 106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[6, 'https://litemall.hogwarts.ceshiren.com/admin/brand/delete', None, None, \"{'name':'TestCase.params2'}\", 'post', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '删除供应商', '正常删除', '删除供应商', '流程用例', 'normal']" ]
+      }, {
+        "name" : "创建供应商",
+        "uid" : "932e949200f501e2",
+        "parentUid" : "3e5b3690f9efc1287878b9796248f86d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723637978676,
+          "stop" : 1723637978776,
+          "duration" : 100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[4, 'https://litemall.hogwarts.ceshiren.com/admin/brand/create', '{\"name\":\"测试二商\",\"desc\":\"添加商品\",\"floorPrice\":\"32\",\"picUrl\":\"https://litemall.hogwarts.ceshiren.com/wx/storage/fetch/ue9vehya1y6h8a17brpk.jpg\"}', \"{'object':'$..data','index':0,'name':'TestCase.params1'}\", None, 'post', 'json', '{\"errno\":0,\"errmsg\":\"成功\",\"name\":\"测试二商\"}', '通过', '创建供应商', '正常创建', '创建供应商', '流程用例', 'normal']" ]
+      }, {
+        "name" : "登录接口测试",
+        "uid" : "444bfca2f01fd42e",
+        "parentUid" : "3e5b3690f9efc1287878b9796248f86d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723637977454,
+          "stop" : 1723637977546,
+          "duration" : 92
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[3, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'hogwarts','password':'test12347'}\", 'post', 'json', '{\"errmsg\":\"用户帐号或密码不正确\",\"errno\":605}', '通过', '登录接口测试', '异常登录', '密码错误，登录失败', '用户名正确，密码错误', 'normal']" ]
+      }, {
+        "name" : "登录接口测试",
+        "uid" : "a9a3c7e9b08cdeaf",
+        "parentUid" : "3e5b3690f9efc1287878b9796248f86d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723637977570,
+          "stop" : 1723637977683,
+          "duration" : 113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[4, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'','password':'test12348'}\", 'post', 'json', \"{'errno': 402, 'errmsg': '参数不对'}\", '失败', '登录接口测试', '异常登录', '用户名为空', '用户名为空', 'blocker']" ]
+      }, {
+        "name" : "查询供应商列表",
+        "uid" : "5469af309cfe368a",
+        "parentUid" : "3e5b3690f9efc1287878b9796248f86d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723637978552,
+          "stop" : 1723637978672,
+          "duration" : 120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[3, 'https://litemall.hogwarts.ceshiren.com/admin/brand/list', \"{'page':1,'limit':20,'sort':'add_time','order':'desc'}\", None, None, 'get', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '查询供应商列表', '正常查询', '查询供应商列表', '流程用例', 'normal']" ]
+      }, {
+        "name" : "登录接口测试",
+        "uid" : "75dc696cfb8b5e89",
+        "parentUid" : "3e5b3690f9efc1287878b9796248f86d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723637977338,
+          "stop" : 1723637977450,
+          "duration" : 112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[2, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'hogwart','password':'test12345'}\", 'post', 'json', '{\"errmsg\":\"用户帐号或密码不正确\",\"errno\":605}', '通过', '登录接口测试', '异常登录', '用户名错误，登录失败', '用户名错误，密码正确', 'normal']" ]
+      }, {
+        "name" : "查询行政单位列表",
+        "uid" : "e4eeba755105cb30",
+        "parentUid" : "3e5b3690f9efc1287878b9796248f86d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723637978045,
+          "stop" : 1723637978526,
+          "duration" : 481
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[2, 'https://litemall.hogwarts.ceshiren.com/admin/region/list', None, None, None, 'get', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '查询行政单位列表', '正常查询', '查询行政单位列表', '流程用例', 'normal']" ]
+      }, {
+        "name" : "更新供应商",
+        "uid" : "c92865b2c0c7d180",
+        "parentUid" : "3e5b3690f9efc1287878b9796248f86d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723637978781,
+          "stop" : 1723637978882,
+          "duration" : 101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[5, 'https://litemall.hogwarts.ceshiren.com/admin/brand/update', None, \"{'object':'$..data','index':0,'name':'TestCase.params2'}\", \"{'name':'TestCase.params1'}\", 'post', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '更新供应商', '正常修改', '更新供应商', '流程用例', 'normal']" ]
+      }, {
+        "name" : "登录接口测试",
+        "uid" : "e8645faa4008bf7f",
+        "parentUid" : "3e5b3690f9efc1287878b9796248f86d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723637977772,
+          "stop" : 1723637978040,
+          "duration" : 268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'hogwarts','password':'test12345'}\", None, None, 'post', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '登录接口测试', '正常登录', '登录接口测试', '流程用例', 'normal']" ]
+      }, {
+        "name" : "登录接口测试",
+        "uid" : "1da84933cba4f786",
+        "parentUid" : "3e5b3690f9efc1287878b9796248f86d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723637977688,
+          "stop" : 1723637977767,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[5, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'hogwarts','password':''}\", 'post', 'json', \"{'errno': 401, 'errmsg': '参数不对'}\", '通过', '登录接口测试', '异常登录', '密码为空', '密码为空', 'blocker']" ]
+      } ],
+      "uid" : "3e5b3690f9efc1287878b9796248f86d"
+    }, {
+      "name" : "17568-MainThread",
+      "children" : [ {
+        "name" : "删除供应商",
+        "uid" : "87ffbe42ebba9d91",
+        "parentUid" : "ed713f27883ff8b6e4b4e6bfdad7dc7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724142797691,
+          "stop" : 1724142797778,
+          "duration" : 87
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[6, 'https://litemall.hogwarts.ceshiren.com/admin/brand/delete', None, None, \"{'name':'TestCase.params2'}\", 'post', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '删除供应商', '正常删除', '删除供应商', '流程用例', 'normal']" ]
+      }, {
+        "name" : "查询供应商列表",
+        "uid" : "415adc72a71fcb9a",
+        "parentUid" : "ed713f27883ff8b6e4b4e6bfdad7dc7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724142797389,
+          "stop" : 1724142797486,
+          "duration" : 97
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[3, 'https://litemall.hogwarts.ceshiren.com/admin/brand/list', \"{'page':1,'limit':20,'sort':'add_time','order':'desc'}\", None, None, 'get', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '查询供应商列表', '正常查询', '查询供应商列表', '流程用例', 'normal']" ]
+      }, {
+        "name" : "查询行政单位列表",
+        "uid" : "e627d1913c89d4d5",
+        "parentUid" : "ed713f27883ff8b6e4b4e6bfdad7dc7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724142796957,
+          "stop" : 1724142797385,
+          "duration" : 428
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[2, 'https://litemall.hogwarts.ceshiren.com/admin/region/list', None, None, None, 'get', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '查询行政单位列表', '正常查询', '查询行政单位列表', '流程用例', 'normal']" ]
+      }, {
+        "name" : "更新供应商",
+        "uid" : "3c7547487a7119fc",
+        "parentUid" : "ed713f27883ff8b6e4b4e6bfdad7dc7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724142797602,
+          "stop" : 1724142797684,
+          "duration" : 82
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[5, 'https://litemall.hogwarts.ceshiren.com/admin/brand/update', None, \"{'object':'$..data','index':0,'name':'TestCase.params2'}\", \"{'name':'TestCase.params1'}\", 'post', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '更新供应商', '正常修改', '更新供应商', '流程用例', 'normal']" ]
+      }, {
+        "name" : "登录接口测试",
+        "uid" : "5394b8e4ba83fc62",
+        "parentUid" : "ed713f27883ff8b6e4b4e6bfdad7dc7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724142796286,
+          "stop" : 1724142796383,
+          "duration" : 97
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[2, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'hogwart','password':'test12345'}\", 'post', 'json', '{\"errmsg\":\"用户帐号或密码不正确\",\"errno\":605}', '通过', '登录接口测试', '异常登录', '用户名错误，登录失败', '用户名错误，密码正确', 'normal']" ]
+      }, {
+        "name" : "创建供应商",
+        "uid" : "64a56d8e0c1e7551",
+        "parentUid" : "ed713f27883ff8b6e4b4e6bfdad7dc7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724142797491,
+          "stop" : 1724142797597,
+          "duration" : 106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[4, 'https://litemall.hogwarts.ceshiren.com/admin/brand/create', '{\"name\":\"测试二商\",\"desc\":\"添加商品\",\"floorPrice\":\"32\",\"picUrl\":\"https://litemall.hogwarts.ceshiren.com/wx/storage/fetch/ue9vehya1y6h8a17brpk.jpg\"}', \"{'object':'$..data','index':0,'name':'TestCase.params1'}\", None, 'post', 'json', '{\"errno\":0,\"errmsg\":\"成功\",\"name\":\"测试二商\"}', '通过', '创建供应商', '正常创建', '创建供应商', '流程用例', 'normal']" ]
+      }, {
+        "name" : "登录接口测试",
+        "uid" : "ff056e898bb2fb6c",
+        "parentUid" : "ed713f27883ff8b6e4b4e6bfdad7dc7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724142796025,
+          "stop" : 1724142796281,
+          "duration" : 256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'hogwarts','password':'test12345'}\", 'post', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '登录接口测试', '正常登录', '正常登录，登录成功', '用户名密码正确', 'normal']" ]
+      }, {
+        "name" : "登录接口测试",
+        "uid" : "108dde001b45c172",
+        "parentUid" : "ed713f27883ff8b6e4b4e6bfdad7dc7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724142796641,
+          "stop" : 1724142796729,
+          "duration" : 88
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[5, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'hogwarts','password':''}\", 'post', 'json', \"{'errno': 401, 'errmsg': '参数不对'}\", '通过', '登录接口测试', '异常登录', '密码为空', '密码为空', 'blocker']" ]
+      }, {
+        "name" : "登录接口测试",
+        "uid" : "fe33066d925dafcf",
+        "parentUid" : "ed713f27883ff8b6e4b4e6bfdad7dc7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724142796388,
+          "stop" : 1724142796480,
+          "duration" : 92
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[3, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'hogwarts','password':'test12347'}\", 'post', 'json', '{\"errmsg\":\"用户帐号或密码不正确\",\"errno\":605}', '通过', '登录接口测试', '异常登录', '密码错误，登录失败', '用户名正确，密码错误', 'normal']" ]
+      }, {
+        "name" : "登录接口测试",
+        "uid" : "ea55c64fea92945a",
+        "parentUid" : "ed713f27883ff8b6e4b4e6bfdad7dc7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724142796485,
+          "stop" : 1724142796572,
+          "duration" : 87
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[4, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'','password':'test12348'}\", 'post', 'json', \"{'errno': 402, 'errmsg': '参数不对'}\", '失败', '登录接口测试', '异常登录', '用户名为空', '用户名为空', 'blocker']" ]
+      }, {
+        "name" : "登录接口测试",
+        "uid" : "512df8ddf0b75bd6",
+        "parentUid" : "ed713f27883ff8b6e4b4e6bfdad7dc7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724142796736,
+          "stop" : 1724142796953,
+          "duration" : 217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1, 'https://litemall.hogwarts.ceshiren.com/admin/auth/login', \"{'username':'hogwarts','password':'test12345'}\", None, None, 'post', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '登录接口测试', '正常登录', '登录接口测试', '流程用例', 'normal']" ]
+      } ],
+      "uid" : "ed713f27883ff8b6e4b4e6bfdad7dc7a"
+    } ],
+    "uid" : "fb2736dec524afe01309e89957f59810"
+  } ]
+}

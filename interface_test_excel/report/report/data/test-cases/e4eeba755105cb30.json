@@ -1,0 +1,68 @@
+{
+  "uid" : "e4eeba755105cb30",
+  "name" : "查询行政单位列表",
+  "fullName" : "pytest_case.test_pocess.TestCase#test_login",
+  "historyId" : "e1f2352d1e7ddd56f4e6442198098a39",
+  "time" : {
+    "start" : 1723637978045,
+    "stop" : 1723637978526,
+    "duration" : 481
+  },
+  "description" : "流程用例",
+  "descriptionHtml" : "<p>流程用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "查询行政单位列表"
+  }, {
+    "name" : "story",
+    "value" : "正常查询"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_pocess"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-8U46B15N"
+  }, {
+    "name" : "thread",
+    "value" : "154548-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_case.test_pocess"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "userdata",
+    "value" : "[2, 'https://litemall.hogwarts.ceshiren.com/admin/region/list', None, None, None, 'get', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '查询行政单位列表', '正常查询', '查询行政单位列表', '流程用例', 'normal']"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e4eeba755105cb30.json",
+  "parameterValues" : [ "[2, 'https://litemall.hogwarts.ceshiren.com/admin/region/list', None, None, None, 'get', 'json', '{\"errno\":0,\"errmsg\":\"成功\"}', '通过', '查询行政单位列表', '正常查询', '查询行政单位列表', '流程用例', 'normal']" ]
+}
